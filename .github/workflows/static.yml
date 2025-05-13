@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thyagaraj Kumaresan | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; color: #222; }
+    header { background: #2d3e50; color: #fff; padding: 2rem 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+    section { max-width: 900px; margin: 2rem auto; background: #fff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px #eee; }
+    h2 { color: #2d3e50; }
+    ul { padding-left: 1.2rem; }
+    .contact a { color: #2d3e50; }
+    .skills, .projects, .certs, .achievements, .interests { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .skills div, .projects div, .certs div, .achievements div, .interests div { background: #f0f4f8; padding: 1rem; border-radius: 6px; flex: 1 1 250px; }
+    @media (max-width: 600px) {
+      section { padding: 1rem; }
+      .skills, .projects, .certs, .achievements, .interests { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Thyagaraj Kumaresan</h1>
+    <p>Software Engineering Leader | .NET Core | Angular | Azure | GCP</p>
+    <nav>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Professional Summary</h2>
+    <p>
+      Dynamic and results-driven software engineering leader with 15+ years of expertise in Microsoft technologies, including .NET Core, Angular, and SQL Server. Proven ability to manage cross-functional teams, deliver complex projects, and design scalable solutions. Experienced in leading teams across onshore and offshore locations, system architecture, cloud platforms (Azure, GCP), and database management. Passionate about leveraging technology to create innovative, efficient, and business-aligned solutions.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Key Skills</h2>
+    <div class="skills">
+      <div>
+        <strong>Programming:</strong><br>
+        C#.NET, VB.NET, .NET Core, Angular, JavaScript, ASP.NET MVC, WCF
+      </div>
+      <div>
+        <strong>Cloud:</strong><br>
+        Azure, GCP, Firebase
+      </div>
+      <div>
+        <strong>Databases:</strong><br>
+        SQL Server, Entity Framework, EDMX, MongoDB
+      </div>
+      <div>
+        <strong>Frontend:</strong><br>
+        HTML, CSS, XML, JavaScript
+      </div>
+      <div>
+        <strong>DevOps:</strong><br>
+        CI/CD, Docker, Kubernetes (In Progress)
+      </div>
+      <div>
+        <strong>AI/ML:</strong><br>
+        OpenAI APIs, TensorFlow, NLP (In Progress)
+      </div>
+      <div>
+        <strong>Project Management:</strong><br>
+        Agile, Scrum, Stakeholder Communication, Risk Management
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <ul>
+      <li><strong>Clarium Tech Pvt Ltd, Chennai</strong> – Project Manager (Aug 2023 – Present)</li>
+      <li><strong>NAF (New American Funding), Chennai</strong> – Senior Software Engineer II (Apr 2023 – Aug 2023)</li>
+      <li><strong>Ciklum India Pvt Ltd, Chennai</strong> – Senior Consultant II (Apr 2022 – Jan 2023)</li>
+      <li><strong>GAVS Technologies, Chennai</strong> – Lead Engineer (Apr 2019 – Mar 2022)</li>
+      <li><strong>Pacific IT Solutions Pvt Ltd (CTS Client), Chennai</strong> – Dot Net Developer (Mar 2018 – Feb 2019)</li>
+      <li><strong>Nityo Infotech Services Pvt Ltd (Scope International), Chennai</strong> – Dot Net Developer (Oct 2015 – Jan 2017)</li>
+      <li><strong>Equiniti ICS India Pvt Ltd, Chennai</strong> – Senior Software Engineer (2011 – 2015)</li>
+      <li><strong>Mahindra LogiSoft Business Solutions, Chennai</strong> – Technical Associate (Mar 2011 – Sep 2011)</li>
+      <li><strong>Ameex Technologies Pvt Ltd, Chennai</strong> – Senior Software Engineer (Dec 2010 – Mar 2011)</li>
+      <li><strong>Yamee Cluster, Chennai</strong> – Software Engineer (Jan 2008 – Dec 2010)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Recent Projects</h2>
+    <div class="projects">
+      <div>
+        <strong>Iris-Insights (Data and Analytics Platform)</strong><br>
+        <em>Project Manager</em><br>
+        Next.js, Python, GCP, Firebase
+      </div>
+      <div>
+        <strong>Budget Next Gen (Budget Forecasting App)</strong><br>
+        <em>Team Lead</em><br>
+        .NET Core, Angular, SQL Server, Azure
+      </div>
+      <div>
+        <strong>Sterling Holidays (Customer Engagement)</strong><br>
+        <em>Dot Net Developer</em><br>
+        C#.NET, VB.NET, SQL Server
+      </div>
+      <div>
+        <strong>Cost Allocation (Financial Process Automation)</strong><br>
+        <em>Dot Net Developer</em><br>
+        C#.NET, VB.NET, SQL Server
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Achievements</h2>
+    <div class="certs">
+      <div>
+        <strong>Certifications</strong><br>
+        - Post Graduate Program in Cloud Computing (In Progress)<br>
+        - Professional Certificate in Generative AI (In Progress)<br>
+        - Advanced .NET Development Course (HCL CDC)
+      </div>
+      <div>
+        <strong>Achievements</strong><br>
+        - Project of the Year (GAVS, SCB)<br>
+        - Transformation Award (Clarium Tech)<br>
+        - Spot Recognition Awards<br>
+        - Developed .NET Core video series for LMS
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p>
+      <strong>Bachelor’s in Computer Science</strong><br>
+      Magna College of Engineering, Anna University (2002–2006)<br>
+      CGPA: 6.7<br>
+      Specialized in Software Development and Database Management.<br>
+      Final-year project: "Network Monitoring System" (C#.NET, SQL Server)
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>
+        <strong>Email:</strong> <a href="mailto:k.thyagaraj@hotmail.com">k.thyagaraj@hotmail.com</a><br>
+        <strong>Phone:</strong> 9994545180<br>
+        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/thyagaraj-kumaresan" target="_blank">thyagaraj-kumaresan</a>
+      </p>
+    </div>
+  </section>
+</body>
+</html>
